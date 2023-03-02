@@ -5,10 +5,10 @@
       <section class="breadcrumbs-custom-inset">
         <div class="breadcrumbs-custom context-dark bg-overlay-60">
           <div class="container">
-            <h2 class="breadcrumbs-custom-title">About</h2>
+            <h2 class="breadcrumbs-custom-title">Про нас</h2>
             <ul class="breadcrumbs-custom-path">
-              <li><a href="index.html">Home</a></li>
-              <li class="active">About</li>
+              <li><a href="index.html">Головна</a></li>
+              <li class="active">Про нас</li>
             </ul>
           </div>
           <div class="box-position" style="background-image: url(images/breadcrumbs-bg.jpg);"></div>
@@ -21,14 +21,14 @@
             <div class="col-md-10 col-lg-5 col-xl-6"><img src="images/about-1-519x564.jpg" alt="" width="519" height="564"/>
             </div>
             <div class="col-md-10 col-lg-7 col-xl-6">
-              <h1 class="text-spacing-25 font-weight-normal title-opacity-9">Why choose us</h1>
+              <h1 class="text-spacing-25 font-weight-normal title-opacity-9">Чому саме ми</h1>
               <!-- Bootstrap tabs-->
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                 <!-- Nav tabs-->
                 <ul class="nav nav-tabs">
-                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1" data-toggle="tab">Experience</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2" data-toggle="tab">Skills</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-3" data-toggle="tab">Mission</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1" data-toggle="tab">Досвід</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2" data-toggle="tab">Навички</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-3" data-toggle="tab">Місія</a></li>
                 </ul>
                 <!-- Tab panes-->
                 <div class="tab-content">
@@ -37,7 +37,7 @@
                     <!-- Linear progress bar-->
                     <article class="progress-linear progress-secondary">
                       <div class="progress-header">
-                        <p>Tours</p>
+                        <p>Тури</p>
                       </div>
                       <div class="progress-bar-linear-wrap">
                         <div class="progress-bar-linear" data-gradient=""><span class="progress-value">79</span><span class="progress-marker"></span></div>
@@ -46,7 +46,7 @@
                     <!-- Linear progress bar-->
                     <article class="progress-linear progress-orange">
                       <div class="progress-header">
-                        <p>Excursions</p>
+                        <p>Екскурсії</p>
                       </div>
                       <div class="progress-bar-linear-wrap">
                         <div class="progress-bar-linear" data-gradient=""><span class="progress-value">72</span><span class="progress-marker"></span></div>
@@ -55,7 +55,7 @@
                     <!-- Linear progress bar-->
                     <article class="progress-linear">
                       <div class="progress-header">
-                        <p>Hotel Bookings</p>
+                        <p>Бронювання готелів</p>
                       </div>
                       <div class="progress-bar-linear-wrap">
                         <div class="progress-bar-linear" data-gradient=""><span class="progress-value">88</span><span class="progress-marker"></span></div>
@@ -67,17 +67,17 @@
                       <div class="col-sm-4">
                         <!-- Circle Progress Bar-->
                         <div class="progress-bar-circle" data-value="0.87" data-gradient="#01b3a7" data-empty-fill="transparent" data-size="150" data-thickness="12" data-reverse="true"><span></span></div>
-                        <p class="progress-bar-circle-title">Tours</p>
+                        <p class="progress-bar-circle-title">Тури</p>
                       </div>
                       <div class="col-sm-4">
                         <!-- Circle Progress Bar-->
                         <div class="progress-bar-circle" data-value="0.74" data-gradient="#01b3a7" data-empty-fill="transparent" data-size="150" data-thickness="12" data-reverse="true"><span></span></div>
-                        <p class="progress-bar-circle-title">Excursions</p>
+                        <p class="progress-bar-circle-title">Екскурсії</p>
                       </div>
                       <div class="col-sm-4">
                         <!-- Circle Progress Bar-->
                         <div class="progress-bar-circle" data-value="0.99" data-gradient="#01b3a7" data-empty-fill="transparent" data-size="150" data-thickness="12" data-reverse="true"><span></span></div>
-                        <p class="progress-bar-circle-title">Hotel Bookings</p>
+                        <p class="progress-bar-circle-title">Бронювання готелів</p>
                       </div>
                     </div>
                     <div class="group-md group-middle"><a class="button button-width-xl-230 button-primary button-pipaluk" href="#">Get in touch</a><a class="button button-black-outline button-width-xl-230" href="#">Read more</a></div>
@@ -105,7 +105,7 @@
       <!-- Latest Projects-->
       <section class="section section-sm section-fluid bg-default">
         <div class="container">
-          <h3>Destinations</h3>
+          <h3>Напрямки</h3>
         </div>
         <!-- Owl Carousel-->
         <div class="owl-carousel owl-classic owl-timeline" data-items="1" data-md-items="2" data-lg-items="3" data-xl-items="4" data-margin="30" data-autoplay="false" data-nav="true" data-dots="true">
