@@ -1,7 +1,7 @@
 
 
 
-<!-- Page Footer-->
+<!-- Page Footer --->
 <footer class="section footer-corporate context-dark">
         <div class="footer-corporate-inset">
           <div class="container">
@@ -9,9 +9,10 @@
               <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
                 <div class="oh-desktop">
                   <div class="wow slideInRight" data-wow-delay="0s">
-                    <h6 class="text-spacing-100 text-uppercase">Зв'яжіться з нами</h6>
+                    <h6 class="text-spacing-100 text-uppercase">Зв'яжіться з нами</h6> 
                     <ul class="footer-contacts d-inline-block d-sm-block">
                       <li>
+
                         <div class="unit">
                           <div class="unit-left"><span class="icon fa fa-phone"></span></div>
                           <div class="unit-body"><a class="link-phone" href="tel:#">+38-098-913-4688</a></div>
