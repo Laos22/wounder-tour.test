@@ -1,3 +1,10 @@
+<?php
+require($_SERVER['DOCUMENT_ROOT']. '/configs/db.php');
+if (!isset($_SESSION)) session_start();
+require($_SERVER['DOCUMENT_ROOT']. '/configs/helpers.php');
+$user = getCurrentUser();
+?>
+
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
@@ -12,6 +19,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    
+    
+
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -57,7 +67,7 @@
                         <div class="unit-body"><a class="link-phone" href="tel:#">+1 323-913-4688</a></div>
                       </div>
                     </li>
-                  </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#">Get a Free Quote</a>
+                  </ul><a class="button button-md button-default-outline-2 button-ujarak" href="register.php">Авторизація</a>
                 </div>
               </div>
             </div>
@@ -72,13 +82,13 @@
                   </ul>
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Home</a>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Головна</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="about.php">About</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="about.php">Про нас</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.php">Typography</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.php">Всі пропозиції</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Contact Us</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Контакти</a>
                     </li>
                   </ul>
                 </div>

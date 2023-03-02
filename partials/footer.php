@@ -1,8 +1,6 @@
 
-
-
-<!-- Page Footer-->
-<footer class="section footer-corporate context-dark">
+    <!-- Page Footer-->
+    <footer class="section footer-corporate context-dark">
         <div class="footer-corporate-inset">
           <div class="container">
             <div class="row row-40 justify-content-lg-between">
@@ -59,7 +57,7 @@
                   <div class="wow slideInLeft" data-wow-delay="0s">
                     <h6 class="text-spacing-100 text-uppercase">Quick links</h6>
                     <ul class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
-                      <li><a href="about.html">About us</a></li>
+                      <li><a href="about.php">About us</a></li>
                       <li><a href="#">Our Tours</a></li>
                       <li><a href="#">Our Team</a></li>
                       <li><a href="#">Gallery</a></li>
