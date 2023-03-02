@@ -29,7 +29,7 @@
           <div class="box-contacts-body">
             <div class="box-contacts-icon fl-bigmug-line-up104"></div>
             <div class="box-contacts-decor"></div>
-            <p class="box-contacts-link"><a href="#">50596, Дніпропетровська область, місто Харків, пл. Володимирська, 58</a></p>
+            <p class="box-contacts-link"><a href="#">26886, Закарпатська область, місто Ужгород, пл. Володимирська, 77</a></p>
           </div>
         </article>
       </div>

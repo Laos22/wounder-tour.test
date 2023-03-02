@@ -61,7 +61,7 @@ $user = getCurrentUser();
                       <div class="unit unit-spacing-xs">
                         <div class="unit-left"><span class="icon fa fa-clock-o"></span></div>
                         <div class="unit-body">
-                          <p>09:00<span></span> — 05:00<span></span></p>
+                          <p>09:00<span></span> — 18:00<span></span></p>
                         </div>
                       </div>
                     </li>
