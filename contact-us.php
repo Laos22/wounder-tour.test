@@ -19,8 +19,8 @@
           <div class="box-contacts-body">
             <div class="box-contacts-icon fl-bigmug-line-cellphone55"></div>
             <div class="box-contacts-decor"></div>
-            <p class="box-contacts-link"><a href="tel:#">+38-096-299-84-26</a></p>
-            <p class="box-contacts-link"><a href="tel:#">+38-068-427-31-97</a></p>
+            <p class="box-contacts-link"><a href="tel:#">+1 323-913-4688</a></p>
+            <p class="box-contacts-link"><a href="tel:#">+1 323-888-4554</a></p>
           </div>
         </article>
       </div>
@@ -52,10 +52,10 @@
   <div class="container">
     <article class="title-classic">
       <div class="title-classic-title">
-        <h3>Зв'яжіться з нами</h3>
+        <h3>Get in touch</h3>
       </div>
       <div class="title-classic-text">
-        <p>Якщо у вас виникли запитання, просто заповніть контактну форму, і ми відповімо вам найближчим часом.</p>
+        <p>If you have any questions, just fill in the contact form, and we will answer you shortly.</p>
       </div>
     </article>
     <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
@@ -63,7 +63,7 @@
         <div class="col-md-4">
           <div class="form-wrap">
             <input class="form-input" id="contact-your-name-2" type="text" name="name" data-constraints="@Required">
-            <label class="form-label" for="contact-your-name-2">Ваше ім'я.</label>
+            <label class="form-label" for="contact-your-name-2">Your Name</label>
           </div>
         </div>
         <div class="col-md-4">
@@ -75,17 +75,17 @@
         <div class="col-md-4">
           <div class="form-wrap">
             <input class="form-input" id="contact-phone-2" type="text" name="phone" data-constraints="@Numeric">
-            <label class="form-label" for="contact-phone-2">Телефон</label>
+            <label class="form-label" for="contact-phone-2">Phone</label>
           </div>
         </div>
         <div class="col-12">
           <div class="form-wrap">
-            <label class="form-label" for="contact-message-2">Повідомлення</label>
+            <label class="form-label" for="contact-message-2">Message</label>
             <textarea class="form-input textarea-lg" id="contact-message-2" name="message" data-constraints="@Required"></textarea>
           </div>
         </div>
       </div>
-      <button class="button button-primary button-pipaluk" type="submit">Надіслати повідомлення</button>
+      <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
     </form>
   </div>
 </section>
