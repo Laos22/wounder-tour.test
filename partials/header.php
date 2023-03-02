@@ -68,7 +68,7 @@ $user = getCurrentUser();
                     <li>
                       <div class="unit unit-spacing-xs">
                         <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                        <div class="unit-body"><a class="link-phone" href="tel:#">+1 323-913-4688</a></div>
+                        <div class="unit-body"><a class="link-phone" href="tel:#">+38-063-913-46-88</a></div>
                       </div>
                     </li>
                   </ul>
