@@ -1,8 +1,12 @@
 <?php
 require($_SERVER['DOCUMENT_ROOT']. '/configs/db.php');
-if (!isset($_SESSION)) session_start();
+session_start();
 require($_SERVER['DOCUMENT_ROOT']. '/configs/helpers.php');
 $user = getCurrentUser();
+// echo "Сесия - " . isset($_SESSION['user_id']);
+// echo "<br>";
+// echo "Куки - " .  isset($_COOKIE['user_id']);
+
 ?>
 
 <!DOCTYPE html>
@@ -48,11 +52,11 @@ $user = getCurrentUser();
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img src="images/logo-default-450x37.png" alt="" width="225" height="18"/></a>
+                    <!--Brand--><a class="brand" href="index.php"><img src="images/logo-default-450x37.png" alt="" width="225" height="18"/></a>
                   </div>
                 </div>
                 <div class="rd-navbar-aside-right rd-navbar-collapse">
-                  <ul class="rd-navbar-corporate-contacts">
+                  <ul class="rd-navbar-corporate-contacts" style="margin-right:20px;">
                     <li>
                       <div class="unit unit-spacing-xs">
                         <div class="unit-left"><span class="icon fa fa-clock-o"></span></div>
@@ -67,7 +71,23 @@ $user = getCurrentUser();
                         <div class="unit-body"><a class="link-phone" href="tel:#">+1 323-913-4688</a></div>
                       </div>
                     </li>
-                  </ul><a class="button button-md button-default-outline-2 button-ujarak" href="register.php">Авторизація</a>
+                  </ul>
+                  <?php 
+                  if (isLogin()) { ?> 
+                    <h4 style="margin-right:20px;"><?php echo ucfirst($user['username']); ?></h4>
+                    <a href="logout.php">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                        <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                      </svg>
+                    </a>
+                  <?php } else { ?>
+                    <a class="button button-md button-default-outline-2 button-ujarak" href="register.php">Авторизація</a>
+                  <?php } ?>
+                  
+
+
+                  
                 </div>
               </div>
             </div>
