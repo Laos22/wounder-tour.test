@@ -43,21 +43,21 @@
                 </div>
                 <div class="rd-navbar-aside-right rd-navbar-collapse">
                   <ul class="rd-navbar-corporate-contacts">
-                    <li>
+                    <!--<li>
                       <div class="unit unit-spacing-xs">
                         <div class="unit-left"><span class="icon fa fa-clock-o"></span></div>
                         <div class="unit-body">
-                          <p>09:00<span>am</span> — 05:00<span>pm</span></p>
+                          <p>09:00<span></span> — 05:00<span></span></p>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="unit unit-spacing-xs">
                         <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                        <div class="unit-body"><a class="link-phone" href="tel:#">+1 323-913-4688</a></div>
+                        <div class="unit-body"><a class="link-phone" href="tel:#">+38-063-913-46-88</a></div>
                       </div>
-                    </li>
-                  </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#">Get a Free Quote</a>
+                    </li>-->
+                  </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#">Вхід та реєстрація</a>
                 </div>
               </div>
             </div>
@@ -72,13 +72,13 @@
                   </ul>
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Home</a>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Головна</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="about.php">About</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="about.php">Про нас</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.php">Typography</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.php">Тури</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Contact Us</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Зв'яжіться з нами</a>
                     </li>
                   </ul>
                 </div>

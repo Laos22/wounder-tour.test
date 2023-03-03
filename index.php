@@ -8,8 +8,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-10">
-                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Enjoy the Best Destinations with Our Travel Agency</h6>
-                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Explore</span><span class="font-weight-bold"> The World</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
+                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Насолоджуйтесь найкращими напрямками по Україні з нашою туристичною агенцією</h6>
+                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Подорожувати</span><span class="font-weight-bold"> Україною</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Зв'яжіться з нами</a>
                   </div>
                 </div>
               </div>
@@ -20,8 +20,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-10">
-                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">A team of professional Travel Experts</h6>
-                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Trust</span><span class="font-weight-bold"> Our Experience</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
+                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Команда професійних тревел-експертів</h6>
+                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Довіра</span><span class="font-weight-bold"> Наш досвід</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Зв'яжіться з нами</a>
                   </div>
                 </div>
               </div>
@@ -32,8 +32,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-10">
-                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Build your Next Holiday Trip with Us</h6>
-                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Create</span><span class="font-weight-bold"> Your Tour</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
+                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Сплануйте свою наступну відпустку з нами</h6>
+                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Створити</span><span class="font-weight-bold"> Ваш Тур</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Зв'яжіться з нами</a>
                   </div>
                 </div>
               </div>
@@ -52,27 +52,27 @@
                 <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                   <ul class="list-marked-2 box-categories-list">
                     <li><a href="#"><img src="images/cta-1-368x420.jpg" alt="" width="368" height="420"/></a>
-                      <h5 class="box-categories-title">Balloon Flights</h5>
+                      <h5 class="box-categories-title">Гарячі тури</h5>
                     </li>
                   </ul>
                 </div>
                 <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                   <ul class="list-marked-2 box-categories-list">
                     <li><a href="#"><img src="images/cta-2-368x420.jpg" alt="" width="368" height="420"/></a>
-                      <h5 class="box-categories-title">Mountain Holiday</h5>
+                      <h5 class="box-categories-title">Найкраща ціна-якість</h5>
                     </li>
                   </ul>
                 </div>
                 <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                   <ul class="list-marked-2 box-categories-list">
                     <li><a href="#"><img src="images/cta-3-368x420.jpg" alt="" width="368" height="420"/></a>
-                      <h5 class="box-categories-title">Beach Holidays</h5>
+                      <h5 class="box-categories-title">Відпочинок удвох</h5>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-          </div><a class="link-classic wow fadeInUp" href="#">Other Tours<span></span></a>
+          </div><a class="link-classic wow fadeInUp" href="#">Інші тури<span></span></a>
           <!-- Owl Carousel-->
         </div>
       </section>
@@ -84,28 +84,28 @@
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
               <div class="box-width-lg-470">
-                <h3>Discover New Horizons</h3>
+                <h3>Відкрийте для себе нові горизонти</h3>
                 <!-- Bootstrap tabs-->
                 <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big tabs-line-style-2 text-center text-md-left" id="tabs-7">
                   <!-- Nav tabs-->
                   <ul class="nav nav-tabs">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1" data-toggle="tab">About us</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-2" data-toggle="tab">Why choose us</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-3" data-toggle="tab">Our mission</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1" data-toggle="tab">Про нас</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-2" data-toggle="tab">Чому обирають нас</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-3" data-toggle="tab">Наша місія</a></li>
                   </ul>
                   <!-- Tab panes-->
                   <div class="tab-content">
                     <div class="tab-pane fade show active" id="tabs-7-1">
-                      <p>Wonder Tour is committed to bringing our clients the best in value and quality travel arrangements. We are passionate about travel and sharing the world's wonders with you.</p>
-                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div>
+                      <p>Wonder Tour прагне запропонувати нашим клієнтам найкращі за вартістю та якістю туристичні послуги. Ми любимо подорожувати і ділитися з вами чудесами Украйни.</p>
+                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Зв'яжіться з нами</a><a class="button button-black-outline button-md" href="about.html">Читати далі</a></div>
                     </div>
                     <div class="tab-pane fade" id="tabs-7-2">
-                      <p>We are proud to offer excellent quality and value for money in our tours, which give you the chance to experience your chosen destination in an authentic and exciting way.</p>
-                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div>
+                      <p>Ми пишаємося тим, що пропонуємо відмінну якість і співвідношення ціни та якості в наших турах, які дають вам можливість відчути обраний вами напрямок в автентичний і захоплюючий спосіб.</p>
+                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Зв'яжіться з нами</a><a class="button button-black-outline button-md" href="about.html">Читати далі</a></div>
                     </div>
                     <div class="tab-pane fade" id="tabs-7-3">
-                      <p>Our mission is to provide the ultimate travel planning experience while becoming a one-stop shop for every travel service available in the industry.</p>
-                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div>
+                      <p>Наша місія полягає в тому, щоб забезпечити найкращий досвід планування подорожей, ставши універсальним магазином для всіх туристичних послуг, доступних в індустрії.</p>
+                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Зв'яжіться з нами</a><a class="button button-black-outline button-md" href="about.html">Читати далі</a></div>
                     </div>
                   </div>
                 </div>
@@ -117,7 +117,7 @@
       <!--	Our Services-->
       <section class="section section-sm">
         <div class="container">
-          <h3>Our Services</h3>
+          <h3>Наші послуги</h3>
           <div class="row row-30">
             <div class="col-sm-6 col-lg-4">
               <article class="box-icon-classic">
@@ -126,8 +126,8 @@
                     <div class="box-icon-classic-icon fl-bigmug-line-equalization3"></div>
                   </div>
                   <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Personalized Matching</a></h5>
-                    <p class="box-icon-classic-text">Our unique matching system lets you find just the tour you want for your next holiday.</p>
+                    <h5 class="box-icon-classic-title"><a href="#">Персоналізований підбір</a></h5>
+                    <p class="box-icon-classic-text">Наша унікальна система підбору турів дозволить вам знайти саме той тур, який ви хочете для своєї наступної відпустки.</p>
                   </div>
                 </div>
               </article>
@@ -139,8 +139,8 @@
                     <div class="box-icon-classic-icon fl-bigmug-line-circular220"></div>
                   </div>
                   <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Wide Variety of Tours</a></h5>
-                    <p class="box-icon-classic-text">We offer a wide variety of personally picked tours with destinations all over the globe.</p>
+                    <h5 class="box-icon-classic-title"><a href="#">Широке розмаїття турів</a></h5>
+                    <p class="box-icon-classic-text">Ми пропонуємо широкий вибір особисто підібраних турів з пунктами призначення по всьому світу.</p>
                   </div>
                 </div>
               </article>
@@ -152,8 +152,8 @@
                     <div class="box-icon-classic-icon fl-bigmug-line-favourites5"></div>
                   </div>
                   <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Highly Qualified Service</a></h5>
-                    <p class="box-icon-classic-text">Our tour managers are qualified, skilled, and friendly to bring you the best service.</p>
+                    <h5 class="box-icon-classic-title"><a href="#">Висококваліфіковане обслуговування</a></h5>
+                    <p class="box-icon-classic-text">Наші туристичні менеджери кваліфіковані, досвідчені та доброзичливі, щоб надати вам найкращий сервіс.</p>
                   </div>
                 </div>
               </article>
@@ -165,8 +165,8 @@
                     <div class="box-icon-classic-icon fl-bigmug-line-headphones32"></div>
                   </div>
                   <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">24/7 Support</a></h5>
-                    <p class="box-icon-classic-text">You can always get professional support from our staff 24/7 and ask any question you have.</p>
+                    <h5 class="box-icon-classic-title"><a href="#">24/7 Підтримка</a></h5>
+                    <p class="box-icon-classic-text">Ви завжди можете отримати професійну підтримку наших співробітників 24/7 і поставити будь-яке запитання.</p>
                   </div>
                 </div>
               </article>
@@ -178,8 +178,8 @@
                     <div class="box-icon-classic-icon fl-bigmug-line-hot67"></div>
                   </div>
                   <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Handpicked Hotels</a></h5>
-                    <p class="box-icon-classic-text">Our team offers only the best selection of affordable and luxury hotels to our clients.</p>
+                    <h5 class="box-icon-classic-title"><a href="#">Вибрані готелі</a></h5>
+                    <p class="box-icon-classic-text">Наша команда пропонує своїм клієнтам тільки найкращий вибір недорогих і розкішних готелів.</p>
                   </div>
                 </div>
               </article>
@@ -191,8 +191,8 @@
                     <div class="box-icon-classic-icon fl-bigmug-line-wallet26"></div>
                   </div>
                   <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Best Price Guarantee</a></h5>
-                    <p class="box-icon-classic-text">If you find tours that are cheaper than ours, we will compensate the difference.</p>
+                    <h5 class="box-icon-classic-title"><a href="#">Гарантія найкращої ціни</a></h5>
+                    <p class="box-icon-classic-text">Якщо ви знайдете тури дешевші за наші, ми компенсуємо різницю.</p>
                   </div>
                 </div>
               </article>
@@ -203,7 +203,7 @@
       <!-- Hot tours-->
       <section class="section section-sm bg-default">
         <div class="container">
-          <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Hot Tours</span></h3>
+          <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Гарячі тури</span></h3>
           <div class="row row-sm row-40 row-md-50">
             <div class="col-sm-6 col-md-12 wow fadeInRight">
               <!-- Product Big-->
@@ -247,12 +247,12 @@
       <!-- Different People-->
       <section class="section section-sm">
         <div class="container">
-          <h3 class="title-block find-car oh"><span class="d-inline-block wow slideInUp">Different People — One Mission</span></h3>
+          <h3 class="title-block find-car oh"><span class="d-inline-block wow slideInUp">Різні люди - одна місія</span></h3>
           <div class="row row-30 justify-content-center box-ordered">
             <div class="col-sm-6 col-md-5 col-lg-3">
               <!-- Team Modern-->
               <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-1-118x118.jpg" alt="" width="118" height="118"/></a>
+                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-1-118x118.jpeg" alt="" width="118" height="118"/></a>
                   <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
                     <g>
                       <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
@@ -260,16 +260,16 @@
                   </svg>
                 </div>
                 <div class="team-modern-caption">
-                  <h6 class="team-modern-name"><a href="#">Diana Robinson</a></h6>
-                  <p class="team-modern-status">Founder, Owner</p>
-                  <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
+                  <h6 class="team-modern-name"><a href="#">Світлана Мірошниченко</a></h6>
+                  <p class="team-modern-status">Засновниця</p>
+                  <h6 class="team-modern-phone"><a href="tel:#">+38-099-913-46-88</a></h6>
                 </div>
               </article>
             </div>
             <div class="col-sm-6 col-md-5 col-lg-3">
               <!-- Team Modern-->
               <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-2-118x118.jpg" alt="" width="118" height="118"/></a>
+                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-2-118x118.jpeg" alt="" width="118" height="118"/></a>
                   <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
                     <g>
                       <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
@@ -277,16 +277,16 @@
                   </svg>
                 </div>
                 <div class="team-modern-caption">
-                  <h6 class="team-modern-name"><a href="#">Peter McMillan</a></h6>
-                  <p class="team-modern-status">Travel Agent</p>
-                  <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
+                  <h6 class="team-modern-name"><a href="#">Григорій Крамаренко</a></h6>
+                  <p class="team-modern-status">Туристичний агент</p>
+                  <h6 class="team-modern-phone"><a href="tel:#">+38-066-913-46-88</a></h6>
                 </div>
               </article>
             </div>
             <div class="col-sm-6 col-md-5 col-lg-3">
               <!-- Team Modern-->
               <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-3-118x118.jpg" alt="" width="118" height="118"/></a>
+                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-3-118x118.jpeg" alt="" width="118" height="118"/></a>
                   <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
                     <g>
                       <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
@@ -294,16 +294,16 @@
                   </svg>
                 </div>
                 <div class="team-modern-caption">
-                  <h6 class="team-modern-name"><a href="#">Jill Peterson</a></h6>
-                  <p class="team-modern-status">Tour Consultant</p>
-                  <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
+                  <h6 class="team-modern-name"><a href="#">Олена Шевчук</a></h6>
+                  <p class="team-modern-status">Консультант по турам</p>
+                  <h6 class="team-modern-phone"><a href="tel:#">+38-096-913-46-88</a></h6>
                 </div>
               </article>
             </div>
             <div class="col-sm-6 col-md-5 col-lg-3">
               <!-- Team Modern-->
               <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-4-118x118.jpg" alt="" width="118" height="118"/></a>
+                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-4-118x118.jpeg" alt="" width="118" height="118"/></a>
                   <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
                     <g>
                       <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
@@ -311,9 +311,9 @@
                   </svg>
                 </div>
                 <div class="team-modern-caption">
-                  <h6 class="team-modern-name"><a href="#">James Smith</a></h6>
-                  <p class="team-modern-status">PR Manager</p>
-                  <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
+                  <h6 class="team-modern-name"><a href="#">Анастасія Бондаренко</a></h6>
+                  <p class="team-modern-status">PR-менеджер</p>
+                  <h6 class="team-modern-phone"><a href="tel:#">+38-063-913-46-88</a></h6>
                 </div>
               </article>
             </div>
@@ -322,11 +322,11 @@
       </section>
       <!-- Section Subscribe-->
       <section class="section bg-default text-center offset-top-50">
-        <div class="parallax-container" data-parallax-img="images/parallax-1-1920x850.jpg">
+        <div class="parallax-container" data-parallax-img="images/parallax-1-1920x850.jpeg">
           <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-2-21">
             <div class="container">
-              <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span class="d-block font-weight-semi-bold">First-class Impressions</span><span class="d-block font-weight-light">are Waiting for You!</span></h2>
-              <p class="text-width-medium text-spacing-75 wow fadeInLeft" data-wow-delay=".1s">Our agency offers travelers various tours and excursions with destinations all over the world. Browse our website to find your dream tour!</p><a class="button button-secondary button-pipaluk" href="#">Book a Tour Now</a>
+              <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span class="d-block font-weight-semi-bold">Першокласні враження</span><span class="d-block font-weight-light">Чекають на Вас!</span></h2>
+              <p class="text-width-medium text-spacing-75 wow fadeInLeft" data-wow-delay=".1s">Наше агентство пропонує мандрівникам різноманітні тури та екскурсії з напрямками по всій Україні. Перегляньте наш сайт, щоб знайти тур своєї мрії!</p><a class="button button-secondary button-pipaluk" href="#">Забронюйте тур зараз</a>
             </div>
           </div>
         </div>
@@ -334,59 +334,59 @@
       <!--	Instagrram wondertour-->
       <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
         <div class="container-fluid">
-          <h6 class="gallery-title">Gallery</h6>
-          <!-- Owl Carousel-->
+          <!--<h6 class="gallery-title">Галерея</h6>
+           Owl Carousel
           <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15" data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
-            <!-- Thumbnail Classic-->
+            
             <article class="thumbnail thumbnail-mary">
               <div class="thumbnail-mary-figure"><img src="images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/>
               </div>
               <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></a>
               </div>
             </article>
-            <!-- Thumbnail Classic-->
+            <
             <article class="thumbnail thumbnail-mary">
               <div class="thumbnail-mary-figure"><img src="images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/>
               </div>
               <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-2-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></a>
               </div>
             </article>
-            <!-- Thumbnail Classic-->
+            
             <article class="thumbnail thumbnail-mary">
               <div class="thumbnail-mary-figure"><img src="images/gallery-image-3-270x195.jpg" alt="" width="270" height="195"/>
               </div>
               <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-3-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-3-270x195.jpg" alt="" width="270" height="195"/></a>
               </div>
             </article>
-            <!-- Thumbnail Classic-->
+            
             <article class="thumbnail thumbnail-mary">
               <div class="thumbnail-mary-figure"><img src="images/gallery-image-4-270x195.jpg" alt="" width="270" height="195"/>
               </div>
               <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-4-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-4-270x195.jpg" alt="" width="270" height="195"/></a>
               </div>
             </article>
-            <!-- Thumbnail Classic-->
+            
             <article class="thumbnail thumbnail-mary">
               <div class="thumbnail-mary-figure"><img src="images/gallery-image-5-270x195.jpg" alt="" width="270" height="195"/>
               </div>
               <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-5-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-5-270x195.jpg" alt="" width="270" height="195"/></a>
               </div>
             </article>
-            <!-- Thumbnail Classic-->
+            
             <article class="thumbnail thumbnail-mary">
               <div class="thumbnail-mary-figure"><img src="images/gallery-image-6-270x195.jpg" alt="" width="270" height="195"/>
               </div>
               <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-6-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-6-270x195.jpg" alt="" width="270" height="195"/></a>
               </div>
             </article>
-            <!-- Thumbnail Classic-->
+            
             <article class="thumbnail thumbnail-mary">
               <div class="thumbnail-mary-figure"><img src="images/gallery-image-7-270x195.jpg" alt="" width="270" height="195"/>
               </div>
               <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-7-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-7-270x195.jpg" alt="" width="270" height="195"/></a>
               </div>
             </article>
-          </div>
+          </div>-->
         </div>
       </section>
 
