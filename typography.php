@@ -4,10 +4,10 @@
 <section class="breadcrumbs-custom-inset">
   <div class="breadcrumbs-custom context-dark bg-overlay-60">
     <div class="container">
-      <h2 class="breadcrumbs-custom-title">Typography</h2>
+      <h2 class="breadcrumbs-custom-title">Всі пропозиції</h2>
       <ul class="breadcrumbs-custom-path">
-        <li><a href="index.html">Home</a></li>
-        <li class="active">Typography</li>
+        <li><a href="index.html">Головна</a></li>
+        <li class="active">Всі пропозиції</li>
       </ul>
     </div>
     <div class="box-position" style="background-image: url(images/breadcrumbs-bg.jpg);"></div>
@@ -17,98 +17,53 @@
 <section class="section section-sm section-first bg-default text-left">
   <div class="container">
     <div class="row row-40 flex-lg-row-reverse justify-content-xl-between">
-      <div class="col-xl-5 d-none d-xl-block">
+      <div class="col-xl-3 d-none d-xl-block">
         <div class="offset-left-xl-45">
-          <h1>H1 Heading</h1>
-          <h2>H2 Heading</h2>
-          <h3>H3 Heading</h3>
           <h4>H4 Heading</h4>
           <h5>H5 Heading</h5>
           <h6>H6 Heading</h6>
         </div>
       </div>
-      <div class="col-xl-7">
+      <div class="col-xl-9">
         <ul class="list-xl box-typography">
-          <li>
-            <h1>H1 Heading</h1>
-            <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
-          </li>
-          <li>
-            <h2>H2 Heading</h2>
-            <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
-          </li>
-          <li>
-            <h3>H3 Heading</h3>
-            <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
-          </li>
-          <li>
-            <h4>H4 Heading</h4>
-            <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
-          </li>
-          <li>
-            <h5>H5 Heading</h5>
-            <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
-          </li>
-          <li>
-            <h6>H6 Heading</h6>
-            <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
-          </li>
+          <div class="container">
+            <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Всі тури</span></h3>
+            <div class="row row-sm row-40 row-md-50">
+              <?PHP
+                  $sql = "SELECT * FROM tours";
+                  $result = mysqli_query($conn, $sql);
+                  while ($tour = $result->fetch_assoc()) {
+                      
+              ?>
+
+
+              <div class="col-sm-6 col-md-12 wow fadeInRight">
+                <!-- Product Big-->
+                <article class="product-big">
+                  <div class="unit flex-column flex-md-row align-items-md-stretch">
+                    <div class="unit-left"><a class="product-big-figure" href="#"><img src="upload/<?php echo $tour['image']; ?>" alt="" width="600" height="366"/></a></div>
+                    <div class="unit-body">
+                      <div class="product-big-body">
+                        <h5 class="product-big-title"><a href="#"><?php echo $tour['title']; ?></a></h5>
+                        <div class="group-sm group-middle justify-content-start">
+                          <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#"><?php echo $tour['stars']; ?> customer reviews</a>
+                        </div>
+                        <p class="product-big-text"><?php echo $tour['descrip']; ?></p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
+                        <div class="product-big-price-wrap"><span class="product-big-price">$<?php echo $tour['price']; ?></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <?php } ?>
+            </div>
+          </div>
         </ul>
       </div>
     </div>
   </div>
 </section>
-<!-- HTML Text Elements-->
-<section class="section section-sm bg-default text-left">
-  <div class="container">
-    <h3>HTML Text Elements</h3>
-    <p class="text-block">Welcome to our wonderful world. This is a bold text
-      <mark>This is a highlighted text</mark>We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login<span class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="Default text">Tooltips</span>widgets, you will definitely have a great experience of using our web page.<span class="text-strike">This is a strikethrough text</span><span class="text-underline">This is an underlined text.</span><a href="#">Link</a><a class="link-hover" href="#">Hover link</a><a class="link-active" href="#">Press link</a>
-    </p>
-  </div>
-</section>
 
-<!-- Lists and Blockquote-->
-<section class="section section-sm section-last bg-default text-left">
-  <div class="container">
-    <div class="row row-60 row-md-80 row-lg-90">
-      <div class="col-lg-8 col-xl-6">
-        <h3>Ordered & Unordered Lists</h3>
-        <div class="row row-sm row-30">
-          <div class="col-sm-6">
-            <ul class="list-marked">
-              <li>Consulting</li>
-              <li>Customer Service</li>
-              <li>Innovation</li>
-              <li>Management</li>
-              <li>Ethics</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <ol class="list-ordered">
-              <li>Consulting</li>
-              <li>Customer Service</li>
-              <li>Innovation</li>
-              <li>Management</li>
-              <li>Ethics</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-8 col-xl-6">
-        <div class="offset-left-xl-65">
-          <h3>Blockquote</h3>
-          <!-- Quote Classic-->
-          <article class="quote-classic">
-            <div class="quote-classic-text">
-              <p class="q">We use only trusted, verified content, so you can believe our every word.</p>
-            </div>
-            <h6 class="quote-classic-cite">Catherine Williams</h6>
-          </article>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <?php require('partials/footer.php'); ?>

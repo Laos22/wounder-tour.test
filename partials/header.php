@@ -106,7 +106,7 @@ $user = getCurrentUser();
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="about.php">Про нас</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.php">Всі пропозиції</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.php">Всі пропози</a>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Контакти</a>
                     </li>

@@ -46,10 +46,10 @@ function getUserName($id) {
 
 }
 
-// получить все твиты юзера
-function getAllTwitsByUser($user) {
+// получить тур по ид
+function getTourById($id_tour) {
     global $conn;
-    $sql = "SELECT * FROM posts WHERE user_id=" . $user['id'] . " ORDER BY id DESC";
+    $sql = "SELECT * FROM tours WHERE id=" . $id_tour ;
     $result = mysqli_query($conn, $sql);
     return $result;
 }
@@ -60,6 +60,16 @@ function getAllTwits() {
     $sql = "SELECT * FROM posts ORDER BY id DESC";
     $result = mysqli_query($conn, $sql);
     return $result;
+}
+
+function generateRandomString($length = 10) {
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    return $randomString;
 }
 
 
