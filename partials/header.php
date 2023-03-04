@@ -7,6 +7,10 @@ $user = getCurrentUser();
 // echo "<br>";
 // echo "Куки - " .  isset($_COOKIE['user_id']);
 
+$textname= basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
+$pathInfo = pathinfo($textname);
+
+
 ?>
 
 <!DOCTYPE html>
@@ -102,13 +106,13 @@ $user = getCurrentUser();
                   </ul>
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Головна</a>
+                    <li class="rd-nav-item <?php echo $pathInfo["filename"] == 'index' ? 'active' : "" ; ?>"><a class="rd-nav-link" href="index.php">Головна</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="about.php">Про нас</a>
+                    <li class="rd-nav-item <?php echo $pathInfo["filename"] == 'about' ? 'active' : "" ; ?>"><a class="rd-nav-link" href="about.php">Про нас</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.php">Тури</a>
+                    <li class="rd-nav-item <?php echo $pathInfo["filename"] == 'typography' ? 'active' : "" ; ?>"><a class="rd-nav-link" href="typography.php">Тури</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Контакти</a>
+                    <li class="rd-nav-item <?php echo $pathInfo["filename"] == 'contact-us' ? 'active' : "" ; ?>"><a class="rd-nav-link" href="contact-us.php">Контакти</a>
                     </li>
                   </ul>
                 </div>
