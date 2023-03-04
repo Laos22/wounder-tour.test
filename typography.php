@@ -17,17 +17,17 @@
 <section class="section section-sm section-first bg-default text-left">
   <div class="container">
     <div class="row row-40 flex-lg-row-reverse justify-content-xl-between">
-      <div class="col-xl-3 d-none d-xl-block">
+      <!-- <div class="col-xl-3 d-none d-xl-block">
         <div class="offset-left-xl-45">
           <h4>H4 Heading</h4>
           <h5>H5 Heading</h5>
           <h6>H6 Heading</h6>
         </div>
-      </div>
-      <div class="col-xl-9">
+      </div> -->
+      <div class="col-xl-12">
         <ul class="list-xl box-typography">
           <div class="container">
-            <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Всі тури</span></h3>
+            <h3 class="oh-desktop text-center"><span class="d-inline-block wow slideInDown">Всі тури</span></h3>
             <div class="row row-sm row-40 row-md-50">
               <?PHP
                   $sql = "SELECT * FROM tours";
@@ -49,7 +49,7 @@
                           <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#"><?php echo $tour['stars']; ?> customer reviews</a>
                         </div>
                         <p class="product-big-text"><?php echo $tour['descrip']; ?></p><a class="button button-black-outline button-ujarak" href="#">Замовити</a>
-                        <div class="product-big-price-wrap"><span class="product-big-price">$<?php echo $tour['price']; ?></span></div>
+                        <div class="product-big-price-wrap"><span class="product-big-price"><?php echo $tour['price']; ?> грн</span></div>
                       </div>
                     </div>
                   </div>
