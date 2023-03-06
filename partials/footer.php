@@ -59,11 +59,9 @@
                   <div class="wow slideInLeft" data-wow-delay="0s">
                     <h6 class="text-spacing-100 text-uppercase">Швидкі посилання</h6>
                     <ul class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
+                      <li><a href="index.php">Головна</a></li>
                       <li><a href="about.html">Про нас</a></li>
-                      <li><a href="#">Наші тури</a></li>
-                      <li><a href="#">Наша команда</a></li>
-                      <li><a href="#">Галерея</a></li>
-                      <li><a href="#">Блог</a></li>
+                      <li><a href="typography.php">Наші тури</a></li>
                     </ul>
                     <div class="group-md group-middle justify-content-sm-start"><a class="button button-lg button-primary button-ujarak" href="#">Зв'яжіться з нами</a></div>
                   </div>

@@ -32,8 +32,9 @@
         }
     }
 
-
-      $sql = "INSERT INTO `tours` (`title`, `stars`, descrip, price, image) VALUES ('" . $_POST['title'] . "', '" . $_POST['stars'] . "', '" . $_POST['descrip'] . "', '" . $_POST['price'] . "', '" . $imageName ."');";
+      var_dump($_POST['hot']);
+      $hot = (isset($_POST['hot']) ) ? 1 : 0 ;
+      $sql = "INSERT INTO `tours` (`title`, `stars`, descrip, price, hot, image) VALUES ('" . $_POST['title'] . "', '" . $_POST['stars'] . "', '" . $_POST['descrip'] . "', '" . $_POST['price'] . "', '" . $hot . "', '" . $imageName ."');";
       if (mysqli_query($conn, $sql)) {
         header("Location: /admin/posts.php");
       } else {
@@ -67,6 +68,11 @@
   <div class="mb-3">
     <label for="descrip" class="form-label">Опис туру</label>
     <textarea name="descrip" id="descrip" cols="30" rows="10" class="form-control" required></textarea>
+  </div>
+
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="1" id="hot" name="hot" >
+    <label class="form-check-label" for="hot"> Гарячі тури</label>
   </div>
 
   <div class="mb-3">

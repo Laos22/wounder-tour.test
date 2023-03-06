@@ -112,6 +112,9 @@ $pathInfo = pathinfo($textname);
                     </li>
                     <li class="rd-nav-item <?php echo $pathInfo["filename"] == 'typography' ? 'active' : "" ; ?>"><a class="rd-nav-link" href="typography.php">Тури</a>
                     </li>
+                    <li class="rd-nav-item <?php echo $pathInfo["filename"] == 'news' ? 'active' : "" ; ?>"><a class="rd-nav-link" href="news.php">Новини</a> 
+                    </li>
+                    </li>
                     <li class="rd-nav-item <?php echo $pathInfo["filename"] == 'contact-us' ? 'active' : "" ; ?>"><a class="rd-nav-link" href="contact-us.php">Контакти</a>
                     </li>
                   </ul>

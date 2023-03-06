@@ -72,7 +72,7 @@
                 </div>
               </div>
             </div>
-          </div><a class="link-classic wow fadeInUp" href="#">Інші тури<span></span></a>
+          </div><a class="link-classic wow fadeInUp" href="typography.php">Інші тури<span></span></a>
           <!-- Owl Carousel-->
         </div>
       </section>
@@ -205,43 +205,36 @@
         <div class="container">
           <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Гарячі тури</span></h3>
           <div class="row row-sm row-40 row-md-50">
-            <div class="col-sm-6 col-md-12 wow fadeInRight">
-              <!-- Product Big-->
-              <article class="product-big">
-                <div class="unit flex-column flex-md-row align-items-md-stretch">
-                  <div class="unit-left"><a class="product-big-figure" href="#"><img src="images/product-big-1-600x366.jpg" alt="" width="600" height="366"/></a></div>
-                  <div class="unit-body">
-                    <div class="product-big-body">
-                      <h5 class="product-big-title"><a href="#">Benidorm, Spain</a></h5>
-                      <div class="group-sm group-middle justify-content-start">
-                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
+              <?PHP
+                  $sql = "SELECT * FROM `tours` WHERE `hot` = 1";
+                  $result = mysqli_query($conn, $sql);
+                  while ($tour = $result->fetch_assoc()) {    
+              ?>
+              <div class="col-sm-6 col-md-12 wow fadeInRight">
+                <!-- Product Big-->
+                <article class="product-big">
+                  <div class="unit flex-column flex-md-row align-items-md-stretch">
+                    <div class="unit-left"><a class="product-big-figure" href="singl.php?tour_id=<?php echo $tour['id']; ?>"><img src="upload/<?php echo $tour['image']; ?>" alt="" width="600" height="366"/></a></div>
+                    <div class="unit-body">
+                      <div class="product-big-body">
+                        <h5 class="product-big-title"><a href="singl.php?tour_id=<?php echo $tour['id']; ?>"><?php echo $tour['title']; ?></a></h5>
+                        <div class="group-sm group-middle justify-content-start">
+                          <div class="product-big-rating">
+                            <?php for ($i=0; $i < $tour['stars']; $i++) { ?>
+                              <span class="icon material-icons-star"></span>
+                            <?php } ?>
+                             <!-- 3 customer reviews -->
+                            </a>
+                        </div>
+                        <p class="product-big-text"><?php echo $tour['descrip']; ?></p><a class="button button-black-outline button-ujarak" href="#">Замовити</a>
+                        <div class="product-big-price-wrap"><span class="product-big-price"><?php echo $tour['price']; ?> грн</span></div>
                       </div>
-                      <p class="product-big-text">Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...</p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                      <div class="product-big-price-wrap"><span class="product-big-price">$790</span></div>
                     </div>
                   </div>
-                </div>
-              </article>
+                </article>
+              </div>
+              <?php } ?>
             </div>
-            <div class="col-sm-6 col-md-12 wow fadeInLeft">
-              <!-- Product Big-->
-              <article class="product-big">
-                <div class="unit flex-column flex-md-row align-items-md-stretch">
-                  <div class="unit-left"><a class="product-big-figure" href="#"><img src="images/product-big-2-600x366.jpg" alt="" width="600" height="366"/></a></div>
-                  <div class="unit-body">
-                    <div class="product-big-body">
-                      <h5 class="product-big-title"><a href="#">Mauritius Island, Africa</a></h5>
-                      <div class="group-sm group-middle justify-content-start">
-                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">5 customer reviews</a>
-                      </div>
-                      <p class="product-big-text">The beautiful and inviting island nation of Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant...</p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                      <div class="product-big-price-wrap"><span class="product-big-price">$890</span></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
         </div>
       </section>
       <!-- Different People-->

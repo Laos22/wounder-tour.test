@@ -23,8 +23,10 @@
     $result3 = mysqli_query($conn, $sql3);
     $tour = $result3->fetch_assoc();
 
+
     if ($_POST['title']) {
       $imageName = "";
+      $hot = (isset($_POST['hot']) ) ? 1 : 0 ;
       if($_FILES['image']['name'] != "") {
         $uploaddir = $_SERVER['DOCUMENT_ROOT']. '/upload/';
         $imageName = generateRandomString() . time() . "." . pathinfo($_FILES['image']['name'])['extension'];
@@ -35,9 +37,11 @@
             var_dump($_FILES);
             die();
         }
+      $sql = "UPDATE `tours` SET `title` = '" . $_POST['title'] . "', `stars` = '" . $_POST['stars'] . "', `descrip` = '" . $_POST['descrip'] . "', `price` = '" . $_POST['price'] . "', `hot` = '" . $hot  . "', `image` = '" . $imageName . "' WHERE `id` = " . $_GET['id'] . ";";   
+    } else {
+      $sql = "UPDATE `tours` SET `title` = '" . $_POST['title'] . "', `stars` = '" . $_POST['stars'] . "', `descrip` = '" . $_POST['descrip'] . "', `price` = '" . $_POST['price'] . "', `hot` = '" . $hot . "' WHERE `id` = " . $_GET['id'] . ";";
     }
 
-      $sql = "UPDATE `tours` SET `title` = '" . $_POST['title'] . "', `stars` = '" . $_POST['stars'] . "', `descrip` = '" . $_POST['descrip'] . "', `price` = '" . $_POST['price'] . "', `image` = '" . $imageName . "' WHERE `id` = " . $_GET['id'] . ";";
       if (mysqli_query($conn, $sql)) {
         header("Location: /admin/posts.php");
       } else {
@@ -80,7 +84,11 @@
     <img src="/upload/<?php echo $tour['image'] ?>" alt="" width="250px">
     <input type="hidden" name="MAX_FILE_SIZE" value="300000" />
     <input type="file" class="form-control" id="image" name="image" >
-    
+  </div>
+
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="1" id="hot" name="hot" <?php echo $retVal = ($tour['hot']) ? "checked" : "";?>>
+    <label class="form-check-label" for="hot"> Гарячі тури</label>
   </div>
 
   <button type="submit" class="btn btn-success"><i class="far fa-save"></i> Save</button>

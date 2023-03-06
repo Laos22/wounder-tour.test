@@ -6,11 +6,11 @@
     <div class="container">
       <h2 class="breadcrumbs-custom-title">Тури</h2>
       <ul class="breadcrumbs-custom-path">
-        <li><a href="index.html">Головна</a></li>
+        <li><a href="index.php">Головна</a></li>
         <li class="active">Тури</li>
       </ul>
     </div>
-    <div class="box-position" style="background-image: url(images/breadcrumbs-bg.jpg);"></div>
+    <div class="box-position" style="background-image: url(images/img_tours.jpg);"></div>
   </div>
 </section>
 <!-- Base typography-->
@@ -32,21 +32,23 @@
               <?PHP
                   $sql = "SELECT * FROM tours";
                   $result = mysqli_query($conn, $sql);
-                  while ($tour = $result->fetch_assoc()) {
-                      
+                  while ($tour = $result->fetch_assoc()) {    
               ?>
-
-
               <div class="col-sm-6 col-md-12 wow fadeInRight">
                 <!-- Product Big-->
                 <article class="product-big">
                   <div class="unit flex-column flex-md-row align-items-md-stretch">
-                    <div class="unit-left"><a class="product-big-figure" href="#"><img src="upload/<?php echo $tour['image']; ?>" alt="" width="600" height="366"/></a></div>
+                    <div class="unit-left"><a class="product-big-figure" href="singl.php?tour_id=<?php echo $tour['id']; ?>"><img src="upload/<?php echo $tour['image']; ?>" alt="" width="600" height="366"/></a></div>
                     <div class="unit-body">
                       <div class="product-big-body">
-                        <h5 class="product-big-title"><a href="#"><?php echo $tour['title']; ?></a></h5>
+                        <h5 class="product-big-title"><a href="singl.php?tour_id=<?php echo $tour['id']; ?>"><?php echo $tour['title']; ?></a></h5>
                         <div class="group-sm group-middle justify-content-start">
-                          <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#"><?php echo $tour['stars']; ?> customer reviews</a>
+                          <div class="product-big-rating">
+                            <?php for ($i=0; $i < $tour['stars']; $i++) { ?>
+                              <span class="icon material-icons-star"></span>
+                            <?php } ?>
+                             <!-- 3 customer reviews -->
+                            </a>
                         </div>
                         <p class="product-big-text"><?php echo $tour['descrip']; ?></p><a class="button button-black-outline button-ujarak" href="#">Замовити</a>
                         <div class="product-big-price-wrap"><span class="product-big-price"><?php echo $tour['price']; ?> грн</span></div>
