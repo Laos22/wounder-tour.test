@@ -8,9 +8,10 @@
                 if (isset($_GET['page'])) {
                     if ($_GET['page'] === 'add') {
                         require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/posts/add.php');
-
-                    } else {
+                    } else if ($_GET['page'] === 'edit') {
                         require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/posts/edit.php');
+                    } else if ($_GET['page'] === 'delete') {
+                        require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/posts/delete.php');
                     }
                 } else {
                     require($_SERVER['DOCUMENT_ROOT']. '/admin/modules/posts/all.php'); 

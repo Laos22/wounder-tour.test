@@ -32,7 +32,7 @@
         }
     }
 
-      var_dump($_POST['hot']);
+      
       $hot = (isset($_POST['hot']) ) ? 1 : 0 ;
       $sql = "INSERT INTO `tours` (`title`, `stars`, descrip, price, hot, image) VALUES ('" . $_POST['title'] . "', '" . $_POST['stars'] . "', '" . $_POST['descrip'] . "', '" . $_POST['price'] . "', '" . $hot . "', '" . $imageName ."');";
       if (mysqli_query($conn, $sql)) {
