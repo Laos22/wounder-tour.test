@@ -54,6 +54,68 @@
                         <div class="product-big-price-wrap"><span class="product-big-price"><?php echo $tour['price']; ?> грн</span></div>
                       </div>
                     </div>
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+
+                    <!-- The Modal -->
+                    <div class="modal fade" id="myModal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">Modal Heading</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <!-- Форма для ввода данных -->
+                            <form enctype="multipart/form-data" method="POST">
+                              <div class="mb-3">
+                                <label for="title" class="form-label">Назва туру</label>
+                                <input type="text" class="form-control" id="title" name="title" value="<?php echo $tour['title']?>" required>
+                              </div>
+
+                              <div class="mb-3">
+                                <label for="stars" class="form-label">Кількість зірок</label>
+                                <input type="number" class="form-control" id="stars" name="stars" value="<?php echo $tour['stars']?>" required>
+                              </div>
+
+                              <div class="mb-3">
+                                <label for="price" class="form-label">Ціна</label>
+                                <input type="number" class="form-control" id="price" name="price" value="<?php echo $tour['price']?>" required>
+                              </div>
+
+                              <div class="mb-3">
+                                <label for="descrip" class="form-label">Опис туру</label>
+                                <input name="descrip" id="descrip" type="text" class="form-control" value="<?php echo $tour['descrip']?>" required></input>
+                              </div>
+
+                              <div class="mb-3">
+                                <!-- <label for="image" class="form-label">Фото</label> -->
+                                <img src="/upload/<?php echo $tour['image'] ?>" alt="" width="250px">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="300000" />
+                                <input type="file" class="form-control" id="image" name="image" >
+                              </div>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="1" id="hot" name="hot" <?php echo $retVal = ($tour['hot']) ? "checked" : "";?>>
+                                <label class="form-check-label" for="hot"> Гарячі тури</label>
+                              </div>
+
+                              <button type="submit" class="btn btn-success"><i class="far fa-save"></i> Save</button>
+                            </form>
+                          </div>
+
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </article>
               </div>
